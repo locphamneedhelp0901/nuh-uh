@@ -1,0 +1,29 @@
+body{
+    display: flex;
+
+    /* Margin 0 nếu muốn k bị khoảng trống phía trên  */
+    margin: 0;
+    /* Căn giữa  */
+    justify-content: center;
+}
+
+.products{
+    border: 1px solid red;
+    width: 290px;
+}
+
+.products img{
+    width: 300px;
+}
+
+.products2{
+    border: 1px solid red;
+    width: 500px;
+    margin-top: 30px;
+    /* Cho sản phẩm nằm ngang  */
+    display: flex;
+}
+
+.products2 img{
+    width: 300px;
+}
